@@ -43,7 +43,7 @@ const UpdateProfileDialog = ({ open, setOpen }) => {
         formData.append("bio",input.bio);
         formData.append("skills",input.skills);
         
-        console.log(input)
+        
         if(input.file){
             formData.append("file",input.file);
         }
